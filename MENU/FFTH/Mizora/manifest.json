@@ -1,10 +1,14 @@
 {
-    "targetPackage":  "com.dts.freefireth",
-    "title":  "Mizora",
-    "targetVersion":  "TH iOS 1.132.1",
-    "version":  1,
-    "files":  {
-                  "localConfig.json":  "3e5c4915bb8c0718aa6fbb8143cf954ff32221f9c0ef0b9d83fd0b1fc1c95535",
-                  "Assembly-CSharp-patch.bytes":  "7aeb8bca22bb9e28edbf7f387c20fc89b372eb601cc4c425c1f7586b4a8e4ff2"
-              }
+  "version": 2,
+  "title": "Mizora",
+  "targetPackages": [
+    "com.dts.freefireth",
+    "com.dts.freefiremax"
+  ],
+  "targetVersion": "TH iOS 1.132.1; shared with MAX by operator request, device validation pending",
+  "authentication": "paired-secret-v1",
+  "files": {
+    "Assembly-CSharp-patch.bytes": "2fd8f03b13e9c53cde3c5aafb40a5afd099a672542525f27607cb5e70a59b6ab",
+    "localConfig.json": "3e5c4915bb8c0718aa6fbb8143cf954ff32221f9c0ef0b9d83fd0b1fc1c95535"
+  }
 }
